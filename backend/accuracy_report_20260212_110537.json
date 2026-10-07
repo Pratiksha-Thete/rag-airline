@@ -1,0 +1,189 @@
+{
+  "timestamp": "2026-02-12T11:05:37.037592",
+  "summary": {
+    "total_tests": 13,
+    "successful": 13,
+    "failed": 0,
+    "success_rate": 1.0,
+    "avg_response_time": 1.586
+  },
+  "detailed_results": [
+    {
+      "query": "What is the status of flight SJ101?",
+      "category": "flight_status",
+      "response": "For specific details about the status of flight SJ101, please call 1-800-SKYJET. Our customer support team is available 24/7 to provide you with the most up-to-date information about your flight.\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 3.653,
+      "response_length": 234,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "Is flight SJ205 delayed?",
+      "category": "flight_status",
+      "response": "For specific details about flight SJ205, including any potential delays, please call 1-800-SKYJET. Our customer support team is available 24/7 to provide you with the most up-to-date information.\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.02,
+      "response_length": 234,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "I want to book a flight from New York to London",
+      "category": "booking",
+      "response": "To book a flight from New York to London, please note the following:\n\n* Since this is an international flight, online check-in will be available 24 hours before departure and will close 2 hours before departure.\n* For baggage, \n  * Economy class passengers are allowed 1 carry-on bag (7kg max, 22x14x9 inches) and 1 personal item, with a checked baggage allowance of 23kg (50 lbs) included.\n  * Business class passengers are allowed 2 carry-on bags (14kg total max) and 1 personal item, with a checked baggage allowance of 32kg (70 lbs) included.\n* If you need to make any changes to your flight, please be aware that there will be a $100 fee if the change is made within 24 hours of departure, unless you are a business class passenger, in which case changes are free.\n* For cancellations, \n  * If you cancel within 24 hours of booking, you will receive a full refund.\n  * If you have a refundable ticket and cancel after 24 hours, there will be a $200 fee.\n  * If you have a non-refundable ticket, you will receive a travel credit for 12 months.\n* Meal service will be available on this flight since it is over 2 hours long. You can also request special meals (vegetarian, vegan, gluten-free) 24 hours in advance.\n* Wi-Fi will be available for $10 (1 hour) or $20 (full flight).\n\nFor specific details on booking and fares, please call 1-800-SKYJET. \nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.945,
+      "response_length": 1389,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "How do I cancel my booking?",
+      "category": "cancellation",
+      "response": "To cancel your booking, please note the following:\n\n* If you cancel within 24 hours of booking, you are eligible for a full refund.\n* For refundable tickets, a $200 fee will be applied after 24 hours of booking.\n* For non-refundable tickets, you will receive a travel credit for 12 months.\n\nPlease review your ticket type to determine the applicable cancellation policy. \n\nFor specific details on your booking, please call 1-800-SKYJET.\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.329,
+      "response_length": 475,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "What is your cancellation policy?",
+      "category": "policy",
+      "response": "Our cancellation policy is as follows:\n* Full refund is available within 24 hours of booking\n* For refundable tickets, a $200 fee applies after 24 hours\n* For non-refundable tickets, a travel credit for 12 months is provided\n\nPlease note that these policies apply to cancellations made by the customer. \n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.226,
+      "response_length": 342,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "What's the baggage allowance?",
+      "category": "baggage",
+      "response": "The baggage allowance for SkyJet Airlines is as follows:\n* Carry-on baggage:\n  \u2022 Economy: 1 bag (7kg max, 22x14x9 inches)\n  \u2022 Business: 2 bags (14kg total max)\n  \u2022 Personal item: 1 small bag under seat\n* Checked baggage:\n  \u2022 Economy: 23kg (50 lbs) included\n  \u2022 Business: 32kg (70 lbs) included\n  \u2022 Additional bag: $100 each\n  \u2022 Overweight fee (23-32kg): $50\n  \u2022 Items over 32kg not accepted\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.121,
+      "response_length": 429,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "How much does extra baggage cost?",
+      "category": "baggage",
+      "response": "The cost of extra baggage on SkyJet Airlines is as follows:\n* Additional bag: $100 each\n* Overweight fee (23-32kg): $50\n* Items over 32kg are not accepted\n\nNote that these fees apply to both Economy and Business class passengers. Business class passengers have a higher included baggage weight limit of 32kg, while Economy passengers have a limit of 23kg.\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.022,
+      "response_length": 394,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "When does check-in open?",
+      "category": "checkin",
+      "response": "Check-in for SkyJet Airlines opens 24 hours before departure. Here are the check-in details:\n* Online check-in is available at skyjet.com or through the mobile app\n* Check-in closes:\n  * 1 hour before departure for domestic flights\n  * 2 hours before departure for international flights\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.635,
+      "response_length": 325,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "Can I check in online?",
+      "category": "checkin",
+      "response": "Yes, you can check in online. Online check-in is available at skyjet.com or through our mobile app. Here are the details:\n* Online check-in opens 24 hours before departure\n* Check-in closes:\n  * 1 hour before departure for domestic flights\n  * 2 hours before departure for international flights\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.122,
+      "response_length": 333,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "What are your contact details?",
+      "category": "contact",
+      "response": "To get in touch with us, you can use the following contact details:\n\u2022 Phone: 1-800-SKYJET (1-800-759-538)\n\u2022 Website: skyjet.com\n\u2022 Email: support@skyjet.com\nWe offer 24/7 support for your convenience.\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.123,
+      "response_length": 238,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "Do you serve meals on flights?",
+      "category": "services",
+      "response": "We offer meal services on our flights, depending on the duration. Here are the details:\n* Flights under 2 hours: Complimentary snacks are provided\n* Flights 2+ hours: Meal service is available\n* Special meals can be requested 24 hours in advance, including options such as:\n  * Vegetarian\n  * Vegan\n  * Gluten-free\n\nFor specific details on meal options and availability, please call 1-800-SKYJET. \nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.229,
+      "response_length": 435,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    },
+    {
+      "query": "",
+      "category": "edge_case",
+      "response": "I'm happy to assist you with your query. However, I don't see a specific question from you. Please provide the question you have regarding SkyJet Airlines' policies, and I'll do my best to provide a clear and concise answer based on the policies outlined above.\n\nIf you have a question, I can address topics such as:\n* Check-in procedures and deadlines\n* Baggage allowances and fees\n* Flight change and cancellation policies\n* Pet travel options\n* Special assistance services\n* Meal and lounge options\n* Contact information for further support\n\nPlease provide your question, and I'll respond accordingly.\n\nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 1.533,
+      "response_length": 643,
+      "status_code": 200,
+      "accuracy_flag": "FAIL - Expected error but got success"
+    },
+    {
+      "query": "asdfghjkl",
+      "category": "edge_case",
+      "response": "It seems like you haven't asked a specific question about SkyJet Airlines' policies. To better assist you, could you please provide more details about your inquiry?\n\nIf you have any questions regarding check-in, baggage, flight changes, cancellations, pet policy, special assistance, meals, or lounge access, I'd be happy to help.\n\nFor now, here are some general policy highlights:\n* Check-in opens 24 hours before departure and closes 1 hour before departure for domestic flights, and 2 hours before departure for international flights.\n* Baggage allowances vary by class, with economy allowing 1 carry-on bag (7kg max) and 1 personal item, while business class allows 2 carry-on bags (14kg total max).\n* Flight changes and cancellations have specific fees and time limits, such as a $50 fee for domestic flight changes within 24 hours of departure.\n* Special assistance services, like wheelchair service and unaccompanied minors, are available with advance notice.\n\nFor specific details, please call 1-800-SKYJET. \nVisit skyjet.com for more information",
+      "status": "success",
+      "response_time": 2.66,
+      "response_length": 1054,
+      "status_code": 200,
+      "accuracy_flag": "PASS"
+    }
+  ],
+  "category_metrics": {
+    "flight_status": {
+      "total": 2,
+      "passed": 2,
+      "total_time": 4.673
+    },
+    "booking": {
+      "total": 1,
+      "passed": 1,
+      "total_time": 1.945
+    },
+    "cancellation": {
+      "total": 1,
+      "passed": 1,
+      "total_time": 1.329
+    },
+    "policy": {
+      "total": 1,
+      "passed": 1,
+      "total_time": 1.226
+    },
+    "baggage": {
+      "total": 2,
+      "passed": 2,
+      "total_time": 2.143
+    },
+    "checkin": {
+      "total": 2,
+      "passed": 2,
+      "total_time": 2.757
+    },
+    "contact": {
+      "total": 1,
+      "passed": 1,
+      "total_time": 1.123
+    },
+    "services": {
+      "total": 1,
+      "passed": 1,
+      "total_time": 1.229
+    },
+    "edge_case": {
+      "total": 2,
+      "passed": 1,
+      "total_time": 4.193
+    }
+  }
+}

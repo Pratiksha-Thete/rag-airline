@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-02-13T09:59:01.932249",
+  "total_requests": 100,
+  "successful": 98,
+  "failed": 2,
+  "success_rate": 0.98,
+  "avg_response_time": 0.0,
+  "detailed_results": [
+    {
+      "worker": 0,
+      "query": "Check-in online",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Baggage allowance",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Seat selection",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Delayed flight",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Contact support",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Flight prices",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Flight prices",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Book flight to London",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Baggage allowance",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 0,
+      "query": "Check-in online",
+      "status": "error",
+      "response_time": 0,
+      "success": false,
+      "error": "[WinError 64] The specified network name is no longer available"
+    },
+    {
+      "worker": 1,
+      "query": "Seat selection",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Meal options",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Check-in online",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Seat selection",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Meal options",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Cancel my booking",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Flight prices",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Meal options",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Delayed flight",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    },
+    {
+      "worker": 1,
+      "query": "Book flight to London",
+      "status": 200,
+      "response_time": 0,
+      "success": true
+    }
+  ]
+}

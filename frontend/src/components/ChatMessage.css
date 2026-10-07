@@ -1,0 +1,160 @@
+.message {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    max-width: 80%;
+  }
+  
+  .user-message {
+    background: #f0f9ff;
+    border-color: #bae6fd;
+    margin-left: auto;
+  }
+  
+  .bot-message {
+    background: #f9fafb;
+    border-color: #e5e7eb;
+    margin-right: auto;
+  }
+  
+  .error-message {
+    background: #fef2f2;
+    border-color: #fecaca;
+    margin-right: auto;
+  }
+  
+  .message-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .message-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .user-avatar {
+    background: #10b981;
+  }
+  
+  .bot-avatar {
+    background: #3b82f6;
+  }
+  
+  .error-avatar {
+    background: #ef4444;
+  }
+  
+  .message-info {
+    flex: 1;
+  }
+  
+  .message-role {
+    font-weight: 600;
+    color: #111827;
+    display: block;
+    font-size: 0.9rem;
+  }
+  
+  .message-time {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 2px;
+    display: block;
+  }
+  
+  .message-content {
+    color: #374151;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+  
+  .message-content strong {
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .message-content em {
+    font-style: italic;
+  }
+  
+  .message-content code {
+    background: #f3f4f6;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    color: #dc2626;
+  }
+  
+  .message-content a {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+  
+  .message-content a:hover {
+    text-decoration: none;
+  }
+  
+  .message-feedback {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .message-feedback p {
+    margin: 0 0 8px 0;
+    color: #6b7280;
+    font-size: 0.85rem;
+  }
+  
+  .feedback-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .feedback-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    color: #374151;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .feedback-btn:hover {
+    background: #e5e7eb;
+  }
+  
+  .feedback-btn.active {
+    background: #3b82f6;
+    color: white;
+    border-color: #3b82f6;
+  }
+  
+  .feedback-btn.active:hover {
+    background: #2563eb;
+  }
+  
+  @media (max-width: 768px) {
+    .message {
+      max-width: 90%;
+      padding: 12px;
+    }
+  }
